@@ -7,108 +7,123 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #e4e1e5;
-    color: #2b2b2b;
-    font-family: 'LATO', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+  background-color: #e4e1e5;
+  color: #2b2b2b;
+  font-family: 'LATO', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }
+
 h1 {
-    color: brown;
-    font-size: 30px;
-    font-weight: 700;
-    font-style: italic;
+  color: brown;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
 }
+
 h2 {
-    color: brown; 
-    font-size: 24px;
-    font-weight: 700;
+  color: brown;
+  font-size: 24px;
+  font-weight: 700;
 }
-h3{
-    color: brown;
-    font-size: 18px;
-    font-weight: 700;
+
+h3 {
+  color: brown;
+  font-size: 18px;
+  font-weight: 700;
 }
+
 a {
-    color: black;
+  color: black;
 }
+
 a:hover {
-    outline: 2px solid darkred;
-    text-decoration: none;
-    color: #e0b354;
+  outline: 2px solid darkred;
+  text-decoration: none;
+  color: #e0b354;
 }
+
 a:focus {
-    outline: 2px solid darkred;
-    text-decoration: none;
-    color: #e0b354;
+  outline: 2px solid darkred;
+  text-decoration: none;
+  color: #e0b354;
 }
+
 a:visited {
-    color:darkmagenta;
+  color: rgb(99, 28, 99);
 }
+
 a:active {
-    color:midnightblue;
+  color: midnightblue;
 }
+
 button {
-    /* overwrites browser defaults and resets the border */
-    border: none;
-    /* takes the font from the outer container */
-    font-family: inherit;
-    /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #357b70;
-    color: #e4e1e5;
-    text-decoration: none;
-    /*adds spacing to the button (this will be discussed more in-depth later) */
-    padding: 10px 20px;
-    border-radius: 6px;
-    /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);;
-  }
-  button:hover {
-    /* lets the mouse appear as a hand when hovering over the button */
-    cursor: pointer;
-    /* reduces the opacity of the button to 80% */
-    opacity: 0.8;
-    color: #2b2b2b;
-    background-color: #e0b354;
-  }
-  button:focus {
-    /* lets the mouse appear as a hand when hovering over the button */
-    cursor: pointer;
-    /* reduces the opacity of the button to 80% */
-    opacity: 0.8;
-    color: #2b2b2b;
-    background-color: #e0b354;
-  }
-  .button__secondary {
-    background-color: darkblue;
-    color: #2b2b2b;
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #357b70;
+  color: #e4e1e5;
+  text-decoration: none;
+  /* adds spacing to the button (this will be discussed more in-depth later) */
+  padding: 10px 20px;
+  border-radius: 6px;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);;
 }
+
+button:hover {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  color: #2b2b2b;
+  background-color: #e0b354;
+}
+
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+/* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  color: #2b2b2b;
+  background-color: #e0b354;
+}
+
+.button__secondary {
+  background-color: darkblue;
+  color: #2b2b2b;
+}
+
 .profile__portrait {
   float: left;
   width: 250px;
   margin-right: 40px;
   border-radius: 50%
 }
-  .page-footer {
+
+.page-footer {
   clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
+
 .page-footer {
-    clear: both;
-  }
-  .profile {
+  clear: both;
+}
+
+.profile {
     width: 500px;;
     margin: 0 auto;
     text-align: center;
